@@ -1,0 +1,46 @@
+@101 = ~Chaosklinge~
+@111 = ~Chaosklinge +4~
+@102 = ~Die Chaosklinge ist ein Kurzschwert +4, das nur von Haer'Dalis verwendet werden kann. Jedes Mal, wenn die Klinge trifft, verliert der Gegner für 5 Runden zwei Geschicklichkeitspunkte. Haer'Dalis setzt die Chaosklinge gerne zusammen mit ihrer Schwesternwaffe Entropie ein und wird mit beiden Waffen gemeinsam zu einem äußerst gefährlichen Gegner.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer erleidet das Ziel für 5 Runden 2 Punkte Geschicklichkeit.
+
+ETW0-Bonus: -4
+Schaden: 1W6 +4 (Stich)
+Initiativefaktor: 0
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+Mindeststärke: 4
+
+Gewicht: 2
+
+Kann nur verwendet werden von:
+ Tieflingen~
+
+@103 = ~Entropie~
+@113 = ~Entropie +4~
+@104 = ~Dieses Kurzschwert +4 stammt aus der Abyss und ist aus Grünstahl gefertigt. Es ist eine der Lieblingswaffen von Haer'Dalis. Das Kurzschwert verursacht bei einem Gegner, der bei seinem Rettungswurf scheitert, 3 zusätzliche Schadenspunkte durch Gift. Es kann nur von Tieflingen verwendet werden.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer erleidet das Ziel 3 Schadenspunkte durch Gift (Rettungswurf gg. Gift).
+
+ETW0-Bonus: -4
+Schaden: 1W6 +4 (Stich)
+Initiativefaktor: 0
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+Mindeststärke: 4
+
+Gewicht: 2
+
+Kann nur verwendet werden von:
+ Tieflingen~
+
+
+/* ================= *
+ *  Usability flags  *
+ * ================= */
+@9001 =~[Kk]ann[ %tab%]+[Nn]ur[ %tab%]+[Vv]erwendet[ %tab%]+[Ww]erden[ %tab%]+[Vv]on[ %tab%]*:~	// Usable by:
+@9002 =~[Kk]ann[ %tab%]+[Nn]icht[ %tab%]+[Vv]erwendet[ %tab%]+[Ww]erden[ %tab%]+[Vv]on[ %tab%]*:~	// Not usable by:

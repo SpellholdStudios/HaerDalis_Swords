@@ -4,40 +4,7 @@
 @3 = ~Ho-ho! Just recently we've tormented one captive, who knew all about such blades. We can try the recipe we got from him on your blades, if you wish. I'll take only 20000 gold for it, what say you?~
 @4 = ~Sure. I will not economize on my friend's weapons.~
 @5 = ~Nope, I can't afford it right not. Perhaps, another time.~
-@6 = ~Ho-ho! Just recently we've tormented one captive, who knew all about such blades. We can try the recipe we got from him on your blade, if you wish. I'll take only 10000 gold for it, what say you?~
-@7 = ~Sure. I will not economize on my friend's weapons.~
-@8 = ~Chaos Blade~
-@9 = ~Chaos Blade
-Chaos is a +4 short-sword usable only by tieflings. Everythime it strikes an opponent, he or she loses 2 points of dexterity (for 30 seconds). Haer'Dalis prefers using Chaos with its partner -- Entropy. When dual wielding these two blades, Haer'Dalis is a dangerous opponent.
-
-STATISTICS:
-
-Special Abilities: Target loses 2 points of dexterity each hit (duration: 30 seconds)
-THACO: +3 bonus
-Damage: 1D6 +4
-Damade type: piercing
-Weight: 2
- Speed Factor: 0
-Proficiency Type: Short Sword
-Type:  1-handed
-Usable by:
-  Tieflings~ 
-@10 = ~Entropy~
-@11 = ~Entropy
-This +4 abyssal greensteel blade is one of Haer'Dalis' favourite weapons. This shortsword is capable of inflicting an additional three points of poison damage if the target fails a saving throw. This blade may only be used by tieflings.
-
-STATISTICS:
-
-Special Abilities: 3 points of poison damage if target fails save
-THACO: +3 bonus
-Damage: 1D6 +4
-Damade type: piercing
-Weight: 2
- Speed Factor: 0
-Proficiency Type: Short Sword
-Type:  1-handed
-Usable by:
-  Tieflings~
-@12 = ~Improved Haer'Dalis' swords (special for Kania)~
-@13 = ~Hmm, let's improve only Chaos for now.~
-@14 = ~Hmm, let's improve only Entropy for now.~
+@6 = ~Hmm, let's improve only Chaos for now.~
+@7 = ~Hmm, let's improve only Entropy for now.~
+@8 = ~Ho-ho! Just recently we've tormented one captive, who knew all about such blades. We can try the recipe we got from him on your blade, if you wish. I'll take only 10000 gold for it, what say you?~
+@9 = ~Sure. I will not economize on my friend's weapons.~
