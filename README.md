@@ -34,6 +34,28 @@ Baldur's Gate Trilogy and EET<h3>
 
 ## <a name="versions" id="versions"></a>Versions History
 
+##### Version 3.0.0 (June , 2020)
+
+- TODO Added *swordap.ini* metadata file to support AL|EN's "Project Infinity".
+- Renamed *setup-swordap.tp2* -> *swordap.tp2* to support AL|EN's "Project Infinity".
+- TODO Replaced `AUTHOR` keyword with `SUPPORT`.
+- TODO Added `HANDLE_CHARSETS` function to convert string entries for EE games.
+- TODO Added `REQUIRE_PREDICATE` conditions to avoid installing the mod in inaccurate games.
+- TODO Added component `DESIGNATED` number and "*haerdalis_swords*" `LABEL`.
+- TODO Added native BG2:EE and EET compatibility.
+- TODO Added foreign languages WeiDU prompts whenever possible.
+- TODO Added French translation (Gwendolyne).
+- TODO Added Polish translation (agb1).
+- TODO Re-formated, updated and renamed readme file to *haerdalis-swords-readme-english.html*, then moved it into new "*readme*" folder.
+- Removed useless "*backup*" folder.
+- Reorganized mod architecture tree: created or renamed folders to sort files according to their types.
+- TODO Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
+- TODO Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
+- TODO Updated WeiDU installer to v246.
+- TODO Uploaded mod to official Spellhold Studios GitHub mirror account.
+
+## 
+
 ##### Version 2 (May 25, 2010)
 
 - Added German translation by Jarl.

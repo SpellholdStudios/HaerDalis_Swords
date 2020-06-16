@@ -1,0 +1,41 @@
+BACKUP ~swordap/backup~
+AUTHOR ~Badgert and Kania Blade~
+
+VERSION ~v2~
+
+README ~swordap/readme-swordap.txt~
+
+
+AUTO_TRA ~swordap/lang/%s~
+
+LANGUAGE ~English (translation by Kania Blade)~
+         ~english~
+         ~swordap/lang/english/swordap.tra~
+
+LANGUAGE ~Russian~
+         ~russian~
+         ~swordap/lang/russian/swordap.tra~
+
+LANGUAGE ~Deutsch (Uebersetzung von Jarl)~
+         ~german~
+         ~swordap/lang/german/swordap.tra~
+
+
+/* ====================== *
+ *    HaerDalis Swords    *
+ * ====================== */
+BEGIN @12
+
+COPY ~swordap/item/news06.itm~	~override~
+	SAY NAME1 @8
+	SAY NAME2 @8
+	SAY DESC @9
+BUT_ONLY
+
+COPY ~swordap/item/news05.itm~	~override~
+	SAY NAME1 @10
+	SAY NAME2 @10
+	SAY DESC @11
+BUT_ONLY
+
+COMPILE ~swordap/dialog/swordap.d~
