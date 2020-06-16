@@ -43,16 +43,26 @@ Baldur's Gate Trilogy and EET<h3>
 - TODO Added `REQUIRE_PREDICATE` conditions to avoid installing the mod in inaccurate games.
 - TODO Added component `DESIGNATED` number and "*haerdalis_swords*" `LABEL`.
 - TODO Added native BG2:EE and EET compatibility.
-- TODO Added foreign languages WeiDU prompts whenever possible.
-- TODO Added French translation (Gwendolyne).
-- TODO Added Polish translation (agb1).
-- TODO Re-formated, updated and renamed readme file to *haerdalis-swords-readme-english.html*, then moved it into new "*readme*" folder.
+- Swords updates:
+    - TODO Added 1PP compatibility to harmonize colors item with EE games and classical 1PP modded games.
+    - Fixed item descriptions: Set THAC0 bonus to 4 (was 3).
+    - Added specific EE games item identified names.
+    - Fixed item Speed Factor value : 0 (was 1).
+    - Updated descriptions for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games.
+    - EE compatibility: added op#319 (Item Usability) to restrict item usability to Tieflings.
+    - <ins>Entropy +4</ins> (news05.itm): added EE compatibility for opponents immune to poison (op#324).
+    - <ins>Chaos Blade +4</ins> (news06.itm): added F2 Flaming sword (blue) animation (and colors) for EE and classical 1PP modded games.
+- Added foreign languages WeiDU prompts whenever possible.
+- Added French translation (by Gwendolyne).
+- Added Polish translation (by Cahir).
+- Split "*swordap.tra*" files into separate thematic files for more comfortable readability.
+- TODO Wrote a new *haerdalis-swords-readme-english.html* readme, then moved it into new "*readme*" folder.
 - Removed useless "*backup*" folder.
 - Reorganized mod architecture tree: created or renamed folders to sort files according to their types.
 - TODO Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
 - TODO Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
-- TODO Updated WeiDU installer to v246.
-- TODO Uploaded mod to official Spellhold Studios GitHub mirror account.
+- Updated WeiDU installer to v246.
+- Uploaded mod to official Spellhold Studios GitHub mirror account.
 
 ## 
 

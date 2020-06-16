@@ -1,0 +1,48 @@
+@101 = ~Lame du chaos~
+@111 = ~Lame du chaos +4~
+@102 = ~Chaos est une épée courte +4 utilisable seulement par les tieffelins. À chaque fois qu'elle touche un adversaire, il perd 2 points de dextérité (pour 30 secondes). Haer'Dalis se sert de cette épée en conjonction avec Entropie, ce qui fait de lui un adversaire redoutable.
+
+PARAMÈTRES :
+
+Capacité de combat:
+- la cible perd deux points de Dextérité pendant 30 secondes.
+
+TACO : +4
+Dégâts : 1d6 +4
+Type de dégâts : perforant
+Facteur de vitesse : 0
+Type de compétence : épée courte
+Type : arme à 1 main
+Nécessite : 4 en Force
+Poids : 2
+
+Utilisable par :
+ Tieffelin~
+
+@103 = ~Entropie~
+@113 = ~Entropie +4~
+@104 = ~Cette lame +4 de couleur verte est l'une des armes préférées de Haer'Dalis. Cette épée courte inflige trois points de dégâts supplémentaires dus au poison si la victime rate son jet de sauvegarde. Cette lame ne peut être utilisée que par un tieffelin.
+
+PARAMÈTRES :
+
+Capacité de combat :
+- 3 points de dégâts de poison si jet de sauvegarde raté.
+
+TACO : +4
+Dégâts : 1d6 +4
+Type de dégâts : perforant
+Facteur de vitesse : 0
+Type de compétence : épée courte
+Type : arme à 1 main
+Nécessite : 4 en Force
+Poids : 2
+
+Utilisable par :
+ Tieffelin~
+
+
+/* ================= *
+ *  Usability flags  *
+ * ================= */
+@9001 = ~[Uu]tilisable[ %tab%][Pp]ar[ %tab%]*:~
+@9002 = ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~

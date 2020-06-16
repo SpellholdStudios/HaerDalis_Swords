@@ -1,0 +1,54 @@
+@101 = ~Ostrze chaosu~
+@111 = ~Ostrze chaosu +4~
+@102 = ~Ostrze chaosu to miecz krótki +4, którego moga uzywac tylko diabelstwa. Za kazdym razem, kiedy ta bron trafia w cel, atakowany traci na piec rund 2 punkty Zrecznosci. Haer'Dalis lubi korzystac z Ostrza chaosu w parze z inna bronia, Entropia. Kiedy wlada oboma tymi mieczami jednoczesnie, staje sie bardzo groznym przeciwnikiem w walce wrecz.
+
+PARAMETRY:
+
+Specjalne:
+– Zrecznosc przeciwnika: -2, po trafieniu, kumulatywne, efekt dziala przez piec rund
+
+TraK0: +4
+Obrazenia: 1k6 +4
+Typ obrazen: klute
+Opóznienie: 0
+Rodzaj bieglosci: miecz krótki
+Typ broni: 1-reczna
+
+Wymagania:
+– Sila: 4
+
+Waga: 2
+
+Moze uzywac:
+ Diabelstwo~
+
+@103 = ~Entropia~
+@113 = ~Entropia +4~
+@104 = ~To ostrze +4 z zielonej stali pochodzacej z Otchlani jest jedna z ulubionych broni Haer'Dalisa. Ten miecz krótki zadaje trzy punkty dodatkowych obrazen od trucizny, jesli atakowany nie wykona rzutu obronnego. Tylko diabelstwa moga uzywac tej broni.
+
+PARAMETRY:
+
+Specjalne:
+- +3 obrazenia od trucizny (rzut obronny przeciw truciznom neguje)
+
+TraK0: +4
+Obrazenia: 1k6 +4
+Typ obrazen: klute
+Opóznienie: 0
+Rodzaj bieglosci: miecz krótki
+Typ broni: 1-reczna
+
+Wymagania:
+– Sila: 4
+
+Waga: 2
+
+Moze uzywac:
+ Diabelstwo~
+
+
+/* ================= *
+ *  Usability flags  *
+ * ================= */
+@9001 =~[Mm]oze[ %tab%]+[Uu]zywac[ %tab%]*:~
+@9002 =~[Nn]ie[ %tab%]+[Mm]oze[ %tab%]+[Uu]zywac[ %tab%]*:~
