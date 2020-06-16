@@ -1,7 +1,7 @@
 
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/HaerDalis_Swords?include_prereleases&color=darkred)<a name="top" id="top"> </a>
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
-![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Russian&color=limegreen)
+![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Polish%20%7C%20Russian&color=limegreen)
 
 <div align="center"><h1></a>HaerDalis Swords (WIP)</h1>
 
@@ -60,7 +60,7 @@ Baldur's Gate Trilogy and EET<h3>
 - Removed useless "*backup*" folder.
 - Reorganized mod architecture tree: created or renamed folders to sort files according to their types.
 - TODO Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
-- TODO Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
+- Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
 - Updated WeiDU installer to v246.
 - Uploaded mod to official Spellhold Studios GitHub mirror account.
 
