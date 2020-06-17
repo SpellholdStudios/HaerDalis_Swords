@@ -138,7 +138,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ###### The modding community for the Infinity Engine has been going strong for more than 10 years now, and is the culmination of thousands of unpaid modding hours by fellow fans of the game. Modders produce their best work and players get the best, well-supported mods when we all work together.
 ###### There are two big ways to upset this harmony. One is to claim someone else's work as your own. The second is to host and redistribute a mod without permission from the authors.
-###### Be kind to your fellow players and modders. Don't do either.</br></br>
+###### Be kind to your fellow players and modders. Don't do either.</br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -152,7 +152,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 - TODO Added *swordap.ini* metadata file to support AL|EN's "Project Infinity".
 - Renamed *setup-swordap.tp2* -> *swordap.tp2* to support AL|EN's "Project Infinity".
 - TODO Replaced `AUTHOR` keyword with `SUPPORT`.
-- TODO Added `HANDLE_CHARSETS` function to convert string entries for EE games.
+- Added `HANDLE_CHARSETS` function to convert string entries for EE games.
 - TODO Added `REQUIRE_PREDICATE` conditions to avoid installing the mod in inaccurate games.
 - TODO Added component `DESIGNATED` number and "*improved_haerdalis_swords*" `LABEL`.
 - TODO Added native BG2:EE and EET compatibility.

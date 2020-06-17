@@ -34,6 +34,22 @@ ALWAYS
 	 * ------------------------------------------------ */
 	OUTER_SET ee_name = (is_ee = 1) ? 10 : 0
 
+	/* --------------------------------------------------------------------------------------------- *
+	 *    Convert strings to UTF-8 for BGEE/BG2EE                                                    *
+	 *    No exception, everything needs to be converted                                             *
+	 * --------------------------------------------------------------------------------------------- */
+		ACTION_DEFINE_ARRAY hs#noconvert BEGIN END
+		// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
+		ACTION_DEFINE_ARRAY hs#reload BEGIN setup swords END
+
+		LAF HANDLE_CHARSETS
+			INT_VAR
+				infer_charsets = 1
+			STR_VAR
+				tra_path = EVAL ~%MOD_FOLDER%/lang~
+				noconvert_array = hs#noconvert
+				reload_array = hs#reload
+		END
 
 END // of ALWAYS block
 
