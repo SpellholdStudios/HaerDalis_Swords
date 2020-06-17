@@ -3,9 +3,9 @@
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Polish%20%7C%20Russian&color=limegreen)
 
-<div align="center"><h1></a>Improved Haer'Dalis' Swords (WIP)</h1>
+<div align="center"><h1></a>Improved Haer'Dalis' Swords</h1>
 
-<h3>A Spellhold Studios mod for Baldur's Gate II and ToB (classical and EE games),<br>
+<h3>A mod hosted at Spellhold Studios for Baldur's Gate II and ToB (classical and EE games),<br>
 Baldur's Gate Trilogy and EET<h3>
 
 </div><br />
