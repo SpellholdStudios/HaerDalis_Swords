@@ -147,9 +147,9 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## <a name="versions" id="versions"></a>Versions History
 
-##### Version 3.0.0 (June , 2020)
+##### Version 3.0.0 (June 17, 2020)
 
-- TODO Added *swordap.ini* metadata file to support AL|EN's "Project Infinity".
+- Added *swordap.ini* metadata file to support AL|EN's "Project Infinity".
 - Renamed *setup-swordap.tp2* -> *swordap.tp2* to support AL|EN's "Project Infinity".
 - Replaced `AUTHOR` keyword with `SUPPORT`.
 - Added `HANDLE_CHARSETS` function to convert string entries for EE games.
