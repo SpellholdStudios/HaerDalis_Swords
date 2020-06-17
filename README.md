@@ -172,7 +172,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 - TODO Wrote a new *improved-haerdalis-swords-readme-english.html* readme file, then moved it into new "*readme*" folder.
 - Removed useless "*backup*" folder.
 - Reorganized mod architecture tree: created or renamed folders to sort files according to their types.
-- TODO Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
+- Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
 - Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
 - Updated WeiDU installer to v246.
 - Uploaded mod to official Spellhold Studios GitHub mirror account.
