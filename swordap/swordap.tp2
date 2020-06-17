@@ -1,5 +1,6 @@
 BACKUP ~swordap/backup~
-AUTHOR ~Badgert and Kania Blade~
+//AUTHOR ~Badgert and Kania Blade~
+SUPPORT ~Spellhold Studios at http://www.shsforums.net/topic/60842-improved-haerdalis-sword-updated-to-v300-ee-compatible/~
 
 VERSION ~v2~
 
@@ -82,10 +83,12 @@ LANGUAGE ~Francais (Traduction : Gwendolyne)~
          ~swordap/lang/french/swords.tra~
 
 
-/* ====================== *
- *    HaerDalis Swords    *
- * ====================== */
+/* =============================== *
+ *    Improved HaerDalis Swords    *
+ * =============================== */
 BEGIN @0
+DESIGNATED 0 LABEL "improved_haerdalis_swords"
+REQUIRE_PREDICATE GAME_IS ~bg2 tob bgt bg2ee eet~ @1	// ~You must have BG2, ToB, BGT, BG2:EE or EET installed to install Improved HaerDalis Swords mod.~
 
 COPY ~swordap/item/news06.itm~	~override~
 	name = 101 + ee_name

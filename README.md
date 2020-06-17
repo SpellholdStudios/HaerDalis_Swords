@@ -151,11 +151,11 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 - TODO Added *swordap.ini* metadata file to support AL|EN's "Project Infinity".
 - Renamed *setup-swordap.tp2* -> *swordap.tp2* to support AL|EN's "Project Infinity".
-- TODO Replaced `AUTHOR` keyword with `SUPPORT`.
+- Replaced `AUTHOR` keyword with `SUPPORT`.
 - Added `HANDLE_CHARSETS` function to convert string entries for EE games.
-- TODO Added `REQUIRE_PREDICATE` conditions to avoid installing the mod in inaccurate games.
-- TODO Added component `DESIGNATED` number and "*improved_haerdalis_swords*" `LABEL`.
-- TODO Added native BG2:EE and EET compatibility.
+- Added `REQUIRE_PREDICATE` conditions to avoid installing the mod in inaccurate games.
+- Added component `DESIGNATED` number and "*improved_haerdalis_swords*" `LABEL`.
+- Added native BG2:EE and EET compatibility.
 - Swords updates:
     - Added 1PP compatibility to harmonize colors item with EE games and classical 1PP modded games.
     - Fixed item descriptions: Set THAC0 bonus to 4 (was 3).
