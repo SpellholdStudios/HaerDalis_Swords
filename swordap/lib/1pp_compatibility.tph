@@ -1,0 +1,30 @@
+/* ======================================================================================================================= *
+ *  Code borrowed from Erephine's 1PP v5.0.0 (revised by Gwendolyne) to provide full compatibility with 1PP and EE games.  *
+ *  Those functions restore items coloration for EE games or if 1PP relevant components are installed.                     *
+ * ----------------------------------------------------------------------------------------------------------------------- *
+ *  Reprise du code de 1PP v5.0.0 (Erephine) pour assurer une compatibilité totale avec 1PP et les jeux EE.                *
+ *  Ces fonctions restaurent les couleurs des objets utilisées par les jeux EE et certains composants de 1PP.              *
+ * ======================================================================================================================= */
+
+// Chaos Blade
+// -----------
+DEFINE_PATCH_FUNCTION ~1pp_npsw06~ BEGIN
+	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+		WRITE_ASCII 0x22 ~F2~		// Flaming sword (blue) - replaces SS Short sword
+		LPM ~clear~
+		SET gradient = 99			// sets colour index 99 GOLDEN_BROWN
+		SET location = wgrey		// location (Head/Blade/Staff major)
+		LPM ~colour~
+		SET gradient = 93			// sets colour index 93 DARK_CEMENT_GRAY
+		SET location = wred			// location (Grip/Staff minor - vanilla = whole staff)
+		LPM ~colour~
+		SET gradient = 108			// 108 PINKISH_GRAY replaces colour index 27 GRAY
+		SET location = wblue		// location (Head/Blade minor)
+		LPM ~colour~
+		SET setr = 0x4C				// Set Red
+		SET setg = 0x17				// Set Green
+		SET setb = 0x20				// Set Blue
+		SET location = wblue		// location (Head/Blade minor)
+		LPM ~glow~
+	END
+END

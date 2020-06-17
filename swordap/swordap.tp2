@@ -5,37 +5,95 @@ VERSION ~v2~
 
 README ~swordap/readme-swordap.txt~
 
+ALWAYS
+
+	/* -------------------------------------------------------------------------------- *
+	 *    Determines which game is installed and if the game is an Enhanced Edition.    *
+	 * -------------------------------------------------------------------------------- */
+	OUTER_SET is_ee = (GAME_IS ~bg2ee eet~) ? 1 : 0			// EE game
+
+	/* ----------------- *
+	 *    Detects 1PP    *
+	 * ----------------- */
+	OUTER_SET is_1pp_fswords = (MOD_IS_INSTALLED ~1pp.tp2~ ~203~) ? 1 : 0	// 1ppv4: Restored flame sword animations
+
+	/* -------------------------------- *
+	 *    Loads macros and functions    *
+	 * -------------------------------- */
+
+	INCLUDE ~%MOD_FOLDER%/lib/gw_functions.tpa~				// Loads macros and functions library dealing with specific EE items descriptions and item restriction flags.
+
+	ACTION_IF (is_ee OR is_1pp_fswords) BEGIN
+		INCLUDE ~%MOD_FOLDER%/lib/1pp_macros.tpa~			// Loads 1PP macros dealing with items coloring.
+		LAM ~Locations~										// DEFINES location field values needed to alter items' colors.
+		INCLUDE ~%MOD_FOLDER%/lib/1pp_compatibility.tph~	// Loads functions restoring items coloration for EE games or if 1PP relevant components are installed.
+	END
+
+	/* ------------------------------------------------ *
+	 *    Enhanced Edition item names are different.    *
+	 * ------------------------------------------------ */
+	OUTER_SET ee_name = (is_ee = 1) ? 10 : 0
+
+
+END // of ALWAYS block
+
 
 AUTO_TRA ~swordap/lang/%s~
 
 LANGUAGE ~English (translation by Kania Blade)~
          ~english~
-         ~swordap/lang/english/swordap.tra~
+         ~swordap/lang/english/setup.tra~
+         ~swordap/lang/english/swords.tra~
 
 LANGUAGE ~Russian~
          ~russian~
-         ~swordap/lang/russian/swordap.tra~
+         ~swordap/lang/russian/setup.tra~
+         ~swordap/lang/russian/swords.tra~
 
 LANGUAGE ~Deutsch (Uebersetzung von Jarl)~
          ~german~
-         ~swordap/lang/german/swordap.tra~
+         ~swordap/lang/german/setup.tra~
+         ~swordap/lang/german/swords.tra~
+
+LANGUAGE ~Polski (translation by Cahir)~
+         ~polish~
+         ~swordap/lang/polish/setup.tra~
+         ~swordap/lang/polish/swords.tra~
+
+LANGUAGE ~Francais (Traduction : Gwendolyne)~
+         ~french~
+         ~swordap/lang/french/setup.tra~
+         ~swordap/lang/french/swords.tra~
 
 
 /* ====================== *
  *    HaerDalis Swords    *
  * ====================== */
-BEGIN @12
+BEGIN @0
 
 COPY ~swordap/item/news06.itm~	~override~
-	SAY NAME1 @8
-	SAY NAME2 @8
-	SAY DESC @9
+	name = 101 + ee_name
+	SAY NAME1 (AT name)
+	SAY NAME2 (AT name)
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@102" END
+	PATCH_IF is_ee BEGIN
+		LPF ~GW_ITEM_RESTRICT_USABILITY_EE~ STR_VAR GW_restrict = "TIEFLING" GW_power = 1 GW_kind = "RACE" GW_mess319 = 8332 END
+	END
+	PATCH_IF (is_ee OR is_1pp_fswords) BEGIN
+		LPF ~1pp_npsw06~ END
+	END
 BUT_ONLY
 
 COPY ~swordap/item/news05.itm~	~override~
-	SAY NAME1 @10
-	SAY NAME2 @10
-	SAY DESC @11
+	name = 103 + ee_name
+	SAY NAME1 (AT name)
+	SAY NAME2 (AT name)
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@104" END
+	PATCH_IF is_ee BEGIN
+		LPF ~GW_ITEM_RESTRICT_USABILITY_EE~ STR_VAR GW_restrict = "TIEFLING" GW_power = 1 GW_kind = "RACE" GW_mess319 = 8332 END
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 0 multi_match = 1 match_opcode = 25 opcode = 324 duration = 0 parameter1 = 0 parameter2 = 55 savingthrow = 0 STR_VAR insert = first resource = "news05" END	// undead or golem
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 0 multi_match = 1 match_opcode = 25 opcode = 324 duration = 0 parameter1 = 0 parameter2 = 77 savingthrow = 0 STR_VAR resource = "news05" END	// STAT RESISTPOISON >= 100
+	END
 BUT_ONLY
 
 COMPILE ~swordap/dialog/swordap.d~
