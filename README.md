@@ -169,7 +169,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 - Added French translation (by Gwendolyne).
 - Added Polish translation (by Cahir).
 - Split "*swordap.tra*" files into separate thematic files for more comfortable readability.
-- TODO Wrote a new *improved-haerdalis-swords-readme-english.html* readme file, then moved it into new "*readme*" folder.
+- Wrote a new *improved-haerdalis-swords-readme-english.html* readme file, then moved it into new "*readme*" folder.
 - Removed useless "*backup*" folder.
 - Reorganized mod architecture tree: created or renamed folders to sort files according to their types.
 - Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
