@@ -126,7 +126,7 @@ In addition to the methods above for removing individual components, you can com
 - Kania Blade: English translation.
 - AL|EN: Wrote <a href="https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it">Infinity Auto Packager</a> tool which automatically provides Windows, Linux and Mac versions in the same archive file.
 
-If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/60842-improved-haerdalis-sword-updated-to-v310-ee-compatible/">mod forum</a>.</br>
+&#9755; If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/60842-improved-haerdalis-sword-updated-to-v310-ee-compatible/">mod forum</a>.</br>
 
 ## 
 
