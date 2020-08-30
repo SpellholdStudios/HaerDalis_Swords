@@ -1,7 +1,7 @@
 
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/HaerDalis_Swords?include_prereleases&color=darkred)<a name="top" id="top"> </a>
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
-![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Polish%20%7C%20Russian&color=limegreen)
+![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Italian%20%7C%20Polish%20%7C%20Russian&color=limegreen)
 
 <div align="center"><h1></a>Improved Haer'Dalis' Swords</h1>
 
@@ -13,14 +13,15 @@ Baldur's Gate Trilogy and EET<h3>
 
 **Original Author:** Badgert and Kania Blade  
 **Mod Website:** <a href="http://www.shsforums.net/forum/127-mod-resurrections/">Spellhold Studios</a>  
-**Mod Forum:** <a href="http://www.shsforums.net/topic/60842-improved-haerdalis-sword-updated-to-v300-ee-compatible/">Improved Haer'Dalis Swords</a>  
+**Mod Forum:** <a href="http://www.shsforums.net/topic/60842-improved-haerdalis-sword-updated-to-v310-ee-compatible/">Improved Haer'Dalis Swords</a>  
 
+## 
 
 [Read the mod's readme](https://spellholdstudios.github.io/readmes/improved-haerdalis-swords-readme-english.html)
 
 [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/804-improved-haerdalis-swords/)<br>
 
-&nbsp;
+## 
 
 <div align="center">
 <a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Versions History</a></br>
@@ -41,7 +42,7 @@ This mod allows you to upgrade Haer'Dalis' swords in the Underdark.
 
 This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2, or just SoA) with or without the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2:EE), the conversion projects <a href="http://www.shsforums.net/forum/261-bgt-weidu/">Baldur's Gate Trilogy (BGT)</a> and <a href="https://github.com/K4thos/EET/releases">Enhanced Edition Trilogy (EET)</a>.
 
-This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If you encounter any bugs, please <a href="http://www.shsforums.net/topic/60842-improved-haerdalis-sword-updated-to-v300-ee-compatible/">report them on the forum!</a><br>
+This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If you encounter any bugs, please <a href="http://www.shsforums.net/topic/60842-improved-haerdalis-sword-updated-to-v310-ee-compatible/">report them on the forum!</a><br>
 
 >Although it is not required for the Improved Haer'Dalis' Swords mod to function properly, classical game players are strongly recommended to download and install the latest version of the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.<br>
 <div align="right"><a href="#top">Back to top</a></div>
@@ -118,13 +119,14 @@ In addition to the methods above for removing individual components, you can com
 #### Special Acknowledgements to:
 
 - <a href="http://www.spellholdstudios.net/">Spellhold Studios</a> team for hosting the mod (<a href="http://www.shsforums.net">Forums</a>).
+- ilot: Italian translation.
 - Gwendolyne: French translation.
 - Cahir: Polish translation.
 - Jarl: German translation.
 - Kania Blade: English translation.
 - AL|EN: Wrote <a href="https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it">Infinity Auto Packager</a> tool which automatically provides Windows, Linux and Mac versions in the same archive file.
 
-If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/60842-improved-haerdalis-sword-updated-to-v300-ee-compatible/">mod forum</a>.</br>
+&#9755; If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/60842-improved-haerdalis-sword-updated-to-v310-ee-compatible/">mod forum</a>.</br>
 
 ## 
 
@@ -147,6 +149,13 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## <a name="versions" id="versions"></a>Versions History
 
+##### Version 3.1.0 (August 30, 2020)
+
+- Added Italian translation (by ilot).
+- Improved readme formatting.
+
+## 
+
 ##### Version 3.0.0 (June 17, 2020)
 
 - Added *swordap.ini* metadata file to support AL|EN's "Project Infinity".
@@ -161,7 +170,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
     - Fixed item descriptions: Set THAC0 bonus to 4 (was 3).
     - Added specific EE games item identified names.
     - Fixed item Speed Factor value : 0 (was 1).
-    - Updated descriptions for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games.
+    - Updated descriptions for compatibility with `GW_UPDATE_ITM_DESCRIPTION_TO_EE` WeiDU function requirements which automatically removes usability restrictions for EE games.
     - EE compatibility: added op#319 (Item Usability) to restrict item usability to Tieflings.
     - <ins>Entropy +4</ins> (news05.itm): added EE compatibility for opponents immune to poison (op#324).
     - <ins>Chaos Blade +4</ins> (news06.itm): added F2 Flaming sword (blue) animation (and colors) for EE and classical 1PP modded games.
@@ -181,7 +190,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ##### Version 2 (May 25, 2010)
 
-- Added German translation by Jarl.
+- Added German translation (by Jarl).
 - Moved "*setup-swordap.tp2*" into top mod folder.
 - Added `README` command.
 - Updated WeiDU installer to v217.

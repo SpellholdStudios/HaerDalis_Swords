@@ -1,0 +1,96 @@
+@0 = ~Spade di Haer'Dalis migliorate (special for Kania)~
+@1 = ~Devi avere BG2, ToB, BGT, BG2:EE o EET installati per installare il mod delle  Spade di Haer'Dalis migliorate.~
+
+
+// WeiDU prompts
+//--------------
+@-1000= "Il mod %TP2_FILE_NAME% contiene"
+@-1001= "componenti opzionali distinti.
+Per guadagnare tempo puoi scegliere quello che desideri fare a livello generale piuttosto che rispondere alle single domande.
+"
+@-1002= "Cosa desideri fare di tutti componenti che NON sono ancora installati?
+[I]nstallarli, [S]alta, dom[A]nda per ciascuno? "
+@-1003= " Cosa desideri fare di tutti componenti che sono GIÀ installati?
+[R]einstallarli, rim[U]overli, [S]alta, dem[A]nda per ciascuno? "
+
+@-1004= "PER FAVORE, invia il file per e-mail"
+@-1005= "a"
+
+@-1006= "Installale il componente ["
+@-1007= "] ?
+[R]einstallare, co[N]servare, rim[U]vere o [Q]lascia? "
+@-1008= "] ?
+[I]nstallare, [N]on installare o [Q]lascia? "
+
+@-1009= "Immettere una parte del nome del mod: "
+
+@-1010= "Reinstallazione del componente ["
+@-1011= "] "
+@-1012= "Reinstallation nella lingua"
+
+@-1013= "Cancellazione della vecchia installazione di ["
+@-1014= "] ..."
+@-1015= "VECCHIA INSTALLAZIONE RIMOSSA CON SUCCESSO"
+
+@-1016= "Installazione in corso"
+@-1017= "ERRORE durante l’installazione di ["
+@-1018= "], ritorno allo stato precedente"
+@-1019= "INSTALLATION RIUSCITA"
+@-1020= "Saltare"
+@-1021= "Cancellazione di ["
+@-1022= "] (componente #"
+@-1023= ")"
+@-1024= "CANCELLAZIONE RIUSCITA DI ["
+
+@-1025= "] ?
+[R]einstallare, co[N]servare, rim[U]overe, [Q]asciare o selezionarne uno:"
+@-1026= "] ?
+[N]on installare, [Q]lasicare o selezionane uno:"
+@-1027= " (attualmente installata)"
+
+@-1028= "Desideri visualizare I component di ["
+@-1029= "] ?
+[Y]Si, [N]No ? "
+
+@-1030= "] ?
+Scegliere uno tra:"
+@-1031= "] ?
+[R]einstallare, co[N]servare, [Q]lasciare o selezionarne uno:"
+@-1032= "INSTALLAZIONE NON RIUSCITA A CAUSA DI ERRORE"
+@-1033= "INSTALLAZIONE CON AVVISI"
+@-1034= "Desideri visualizzare il file leggimi (ReadMe) ? [Y]Si [N]No"
+@-1035= "Usare la lingua"
+
+@-1036= "Salta il GRUPPO ["
+@-1037= "] a causa di requisiti non soddisfatti."
+
+@-1038= "dom[A]nda per ciascun componente, [S]alta, o scegli una selezione predefinita:"
+@-1039= "dom[A]nda per ogni componente, [R]einstallare la configurazione corrente, rim[U]overe tutto, [S]alta, o scegli una selezione predefinita:"
+
+@-1040= "
+Seleziona la lingua in cui desideri giocare.
+Se in seguito vorrai scegliere una lingua diversa, devi modificare il file weidu.conf e reinstallare i mod.
+"
+@-1041= "Ceco"
+@-1042= "Tedesco"
+@-1043= "Inglese"
+@-1044= "Spagnolo"
+@-1045= "Francese"
+@-1046= "Italiano"
+@-1047= "Polacco"
+@-1048= "Portoghese"
+@-1049= "Turco"
+@-1050= "Giapponese"
+@-1051= "Coreano"
+@-1052= "Cinese semplificato"
+@-1053= "Russo"
+@-1054= "Ucraino"
+
+@-1060= "
+Questo gioco è disponibile in diverse lingue ma WeiDU non sa quale lingua di gioco è stata utilizzata quando è stato installato questo mod.
+
+Indica quale lingua di gioco è stata utilizzata quando hai installato questo mod. La tua selezione non verrà salvata e verrà utilizzata solo fino alla chiusura di WeiDU.
+"
+@-1061= "
+Utilizzazione di"
+@-1062= " e "

@@ -1,8 +1,8 @@
 BACKUP ~swordap/backup~
 //AUTHOR ~Badgert and Kania Blade~
-SUPPORT ~Spellhold Studios at http://www.shsforums.net/topic/60842-improved-haerdalis-sword-updated-to-v300-ee-compatible/~
+SUPPORT ~Spellhold Studios at http://www.shsforums.net/topic/60842-improved-haerdalis-sword-updated-to-v310-ee-compatible/~
 
-VERSION ~v3.0.0~
+VERSION ~v3.1.0~
 
 README ~swordap/readme/improved-haerdalis-swords-readme-english.html~
 
@@ -81,6 +81,11 @@ LANGUAGE ~Francais (Traduction : Gwendolyne)~
          ~french~
          ~swordap/lang/french/setup.tra~
          ~swordap/lang/french/swords.tra~
+
+LANGUAGE ~Italiano (traduzione di ilot)~
+         ~italian~
+         ~swordap/lang/italian/setup.tra~
+         ~swordap/lang/italian/swords.tra~
 
 
 /* =============================== *
